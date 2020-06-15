@@ -165,6 +165,3 @@ describe "./lib/game_status.rb" do
   end
 end
 
-def full?(board)
-  board.all?{|token| token == "X" || token == "O"}
-end
