@@ -23,4 +23,5 @@ def win?(board)
   WIN_COMBINATIONS.each do |i|
     win << i if i.any?
   end
+end 
   
