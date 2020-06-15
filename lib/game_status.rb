@@ -19,4 +19,6 @@ WIN_COMBINATIONS = [
 
 WIN_COMBINATIONS.select do |top|
   [0].any?
-   
+
+WIN_COMBINATIONS.select do |middle|
+  [1].any? 
