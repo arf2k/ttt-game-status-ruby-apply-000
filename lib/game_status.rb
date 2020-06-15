@@ -17,6 +17,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.select{|win|.any?
+  WIN_COMBINATIONS.select{|i| i.any?}
     end
 end   
