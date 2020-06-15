@@ -19,4 +19,5 @@ WIN_COMBINATIONS = [
 
 
 def win?(board)
-WIN_COMBINATIONS.select do 
+WIN_COMBINATIONS.each do |win|
+  
