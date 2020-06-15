@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
   [6, 4, 2]
 ]
 
-def won?(board)
-  WIN_COMBINATIONS.select do |top|
-    [0].any?
-end   
+
+WIN_COMBINATIONS.select do |top|
+  [0].any?
+   
