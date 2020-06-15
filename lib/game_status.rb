@@ -17,5 +17,5 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  won
+  won? = true 
   WIN_COMBINATIONS.any?{|win|
