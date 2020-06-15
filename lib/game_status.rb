@@ -18,10 +18,10 @@ WIN_COMBINATIONS = [
 
 
 
-def win?(board)
-  win = []
+def won?(board)
+  won = []
   WIN_COMBINATIONS.each do |i|
-    win << i if i.any?
+    won << i if i.any?
   end
 end 
   
