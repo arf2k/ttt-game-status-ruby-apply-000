@@ -20,7 +20,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   won = []
-  WIN_COMBINATIONS.each do |i|
+  WIN_COMBINATIONS.detect do |i|
     won << i if i.any?
   end
 end 
