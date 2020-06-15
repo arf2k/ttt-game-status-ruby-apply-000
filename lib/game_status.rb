@@ -19,4 +19,4 @@ WIN_COMBINATIONS = [
 def won?(board)
   won? = true 
   WIN_COMBINATIONS.each do |win|
-    
+    if WIN_COMBINATIONS.any? 
